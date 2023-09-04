@@ -26,7 +26,7 @@ public class AlphaAdvantageIntegration {
                 .queryParam("function", "TIME_SERIES_INTRADAY")
                 .queryParam("symbol", "TSLA")
                 .queryParam("interval", "5min")
-                .queryParam("apikey", "Y1DUXQ7P6PLNDK3M")
+                .queryParam("apikey", "")     // Don't Forget to Insert Your API Key
                 .build()
                 .toUri();
 
